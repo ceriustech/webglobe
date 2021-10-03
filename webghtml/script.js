@@ -1,6 +1,7 @@
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
+import prettyBytes from 'pretty-bytes';
 
 const form = document.querySelector('[data-form]');
 const queryParamsContainer = document.querySelector('[data-query-params]');
@@ -111,3 +112,5 @@ function updateResponseDetails(response) {
 			JSON.stringify(response.headers).length
 	);
 }
+
+// 35:19
