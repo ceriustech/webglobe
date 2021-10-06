@@ -4,7 +4,7 @@ import FaqPage from '../pages/Faq';
 
 export const navItems = [
 	{
-		linkName: 'home',
+		linkName: 'Home',
 		component: HomePage,
 		path: '/',
 		subNav: [
@@ -27,7 +27,7 @@ export const navItems = [
 		],
 	},
 	{
-		linkName: 'workspace',
+		linkName: 'Workspace',
 		component: WorkspacePage,
 		path: '/workspace',
 		subNav: [
@@ -50,7 +50,7 @@ export const navItems = [
 		],
 	},
 	{
-		linkName: 'faq',
+		linkName: 'Faq',
 		component: FaqPage,
 		path: '/faq',
 		subNav: [
